@@ -15,6 +15,43 @@ Iluminando seu próximo passo profissional usando **dados, IA leve e muito foco 
 
 ---
 
+## 🎥 Demonstração do ORION
+
+### 1. Tela principal – preenchimento manual  
+Interface limpa e direta para o usuário informar nome, área, interesses e competências.
+
+<img src="imgs/orion-demo1.png" width="800">
+
+---
+
+### 2. Seleção de interesses e competências técnicas  
+Sliders intuitivos ajudam o usuário a avaliar seu próprio conhecimento.
+
+<img src="imgs/orion-demo2.png" width="800">
+
+---
+
+### 3. Avaliação de competências comportamentais  
+Uma etapa pensada para refletir sobre habilidades humanas essenciais.
+
+<img src="imgs/orion-demo3.png" width="800">
+
+---
+
+### 4. Modo automático usando texto ou dados do LinkedIn  
+O usuário pode colar informações do perfil ou enviar o ZIP oficial do LinkedIn.
+
+<img src="imgs/orion-demo4.png" width="800">
+
+---
+
+### 5. Upload de arquivos e geração do relatório  
+A aplicação interpreta os dados e entrega um relatório humanizado.
+
+<img src="imgs/orion-demo5.png" width="800">
+
+---
+
 ## 💡 O que é o ORION?
 
 O **ORION** é uma aplicação construída em **Python + Streamlit** que ajuda pessoas a:

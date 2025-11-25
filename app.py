@@ -767,7 +767,7 @@ with st.container():
 # Rodapé
 st.markdown(
     "<p style='text-align:center; font-size:12px; color:#6b7280; margin-top:1.5rem;'>"
-    "ORION – Feito por Fernando e Gabriel. Projeto acadêmico para explorar o futuro do trabalho com tecnologia e humanidade."
+    "©ORION – Por Fernando e Gabriel. Projeto acadêmico para explorar o futuro do trabalho com tecnologia e humanidade."
     "</p>",
     unsafe_allow_html=True
 )

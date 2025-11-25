@@ -1,97 +1,99 @@
-ORION – Iluminando seu Próximo Passo ✨
+<div align="center">
 
-ORION é uma plataforma construída em Python + Streamlit para ajudar profissionais a:
+<img src="ORION.png" alt="Logo do ORION" width="800"/>
 
-entenderem seu risco de automação,
+# 🌌 ORION – Assistente Inteligente de Carreira  
 
-descobrirem novos caminhos de carreira,
+Iluminando seu próximo passo profissional usando **dados, IA leve e muito foco em gente**.
 
-identificarem competências técnicas e comportamentais,
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Status](https://img.shields.io/badge/status-ativo-success)](#)
+[![License](https://img.shields.io/badge/license-MIT-green)](#)
 
-receberem trilhas personalizadas de aprendizado.
+</div>
 
-O projeto também permite:
+---
 
-análise automática do texto do seu LinkedIn,
+## 💡 O que é o ORION?
 
-leitura completa do arquivo ZIP de exportação de dados do LinkedIn,
+O **ORION** é uma aplicação construída em **Python + Streamlit** que ajuda pessoas a:
 
-geração de um relatório personalizado (.txt) com todos os insights.
+- entender o **risco de automação** da sua área/emprego,
+- refletir sobre **novos caminhos de carreira**,  
+- enxergar melhor suas **competências técnicas e comportamentais**,  
+- receber **trilhas de aprendizado** sugeridas para se atualizar.
 
-🚀 Tecnologias utilizadas
+O foco é **tecnologia a serviço do humano**: nada de “substituir pessoas”, e sim apoiar decisões de estudo, transição e desenvolvimento.
 
-Python
+---
 
-Streamlit
+## 🧠 Funcionalidades principais
 
-HTML + CSS customizado
+### 1. Preenchimento manual
 
-Processamento básico de linguagem natural (NLP)
+O usuário informa:
 
-Manipulação de ZIP/CSV
+- Nome e idade  
+- Profissão/emprego atual  
+- Área de atuação / área de interesse  
+- Interesses (ex.: dados, pessoas, negócios, criatividade, sustentabilidade…)  
+- Competências técnicas (0 a 10)  
+- Competências comportamentais (0 a 10)
 
-🎯 Funcionalidades Principais
-✅ Preenchimento Manual
+O ORION:
 
-Área profissional
+- estima o **risco de automação**,
+- gera um **texto explicativo humanizado**,
+- sugere **carreiras compatíveis**,
+- monta uma **trilha de estudos**,
+- permite baixar tudo em **`.txt`**.
 
-Interesses
+---
 
-Competências técnicas (0 a 10)
+### 2. Análise automática via LinkedIn
 
-Competências comportamentais
+Além do modo manual, o app tem uma aba chamada **“Usar dados do LinkedIn”**, onde o usuário pode:
 
-Geração de relatório imediato com:
-
-risco de automação
-
-trilhas de aprendizado
-
-carreiras sugeridas
-
-✅ Análise Automática via LinkedIn
-
-Você pode:
-
-colar seu texto do LinkedIn (sessão “Sobre” ou experiências), ou
-
-enviar o ZIP oficial baixado pelo LinkedIn contendo dezenas de CSVs
+- colar o texto da seção **“Sobre”** / experiências, **ou**
+- fazer upload do **arquivo `.zip` de exportação de dados do LinkedIn**  
+  (aquele pacote oficial cheio de arquivos `.csv`).
 
 O ORION então:
 
-detecta automaticamente sua área de atuação
+- lê os textos relevantes (Profile Summary, Skills, Positions, etc.),  
+- detecta a **área de atuação**,
+- identifica **interesses e palavras-chave**,
+- sugere **competências técnicas e soft skills**,
+- gera o mesmo relatório completo, de forma automática.
 
-extrai interesses e palavras-chave
+---
 
-estima competências técnicas e comportamentais
+## 🛠️ Tecnologias usadas
 
-gera um relatório completo
+- **Python 3.12**
+- **Streamlit** (interface web)
+- **Pandas / CSV / ZIP** para leitura dos dados do LinkedIn
+- **HTML + CSS embutido** para componentes visuais (barras de risco, layout, etc.)
 
-📦 Instalação
+---
 
-Clone este repositório:
+## 🚀 Como rodar o projeto localmente
 
-git clone https://github.com/nandoalmeidam/ORION
+```bash
+# 1. Clonar o repositório
+git clone https://github.com/nandoalmeidam/ORION.git
 cd ORION
 
+# 2. (Opcional) Criar ambiente virtual
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# Linux / Mac
+source .venv/bin/activate
 
-Instale as dependências:
-
+# 3. Instalar dependências
 pip install -r requirements.txt
 
-▶️ Como executar
-python -m streamlit run app.py
-
-
-ou use o arquivo de instruções:
-
-Como rodar.txt
-
-📝 Autores
-
-Projeto acadêmico desenvolvido por Fernando Almeida e Gabriel.
-
-⭐ Como apoiar o projeto
-
-Se gostou, deixe uma estrelinha (⭐) no GitHub.
-Isso ajuda muito!
+# 4. Iniciar a aplicação
+streamlit run app.py

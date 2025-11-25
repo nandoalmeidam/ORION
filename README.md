@@ -19,9 +19,9 @@ Iluminando seu próximo passo profissional usando **dados, IA leve e muito foco 
 
 O **ORION** é uma aplicação construída em **Python + Streamlit** que ajuda pessoas a:
 
-- entender o **risco de automação** da sua área/emprego,
-- refletir sobre **novos caminhos de carreira**,  
-- enxergar melhor suas **competências técnicas e comportamentais**,  
+- entender o **risco de automação** da sua área/emprego;
+- refletir sobre **novos caminhos de carreira**;  
+- enxergar melhor suas **competências técnicas e comportamentais**;  
 - receber **trilhas de aprendizado** sugeridas para se atualizar.
 
 O foco é **tecnologia a serviço do humano**: nada de “substituir pessoas”, e sim apoiar decisões de estudo, transição e desenvolvimento.
@@ -41,12 +41,12 @@ O usuário informa:
 - Competências técnicas (0 a 10)  
 - Competências comportamentais (0 a 10)
 
-O ORION:
+O ORION então:
 
-- estima o **risco de automação**,
-- gera um **texto explicativo humanizado**,
-- sugere **carreiras compatíveis**,
-- monta uma **trilha de estudos**,
+- estima o **risco de automação**;
+- gera um **texto explicativo humanizado**;
+- sugere **carreiras compatíveis**;
+- monta uma **trilha de estudos**;
 - permite baixar tudo em **`.txt`**.
 
 ---
@@ -56,15 +56,15 @@ O ORION:
 Além do modo manual, o app tem uma aba chamada **“Usar dados do LinkedIn”**, onde o usuário pode:
 
 - colar o texto da seção **“Sobre”** / experiências, **ou**
-- fazer upload do **arquivo `.zip` de exportação de dados do LinkedIn**  
-  (aquele pacote oficial cheio de arquivos `.csv`).
+- (versão estendida) fazer upload do **arquivo `.zip` de exportação de dados do LinkedIn**  
+  – aquele pacote oficial cheio de arquivos `.csv`.
 
 O ORION então:
 
-- lê os textos relevantes (Profile Summary, Skills, Positions, etc.),  
-- detecta a **área de atuação**,
-- identifica **interesses e palavras-chave**,
-- sugere **competências técnicas e soft skills**,
+- lê os textos relevantes (Profile Summary, Skills, Positions etc.);  
+- detecta a **área de atuação**;  
+- identifica **interesses e palavras-chave**;  
+- sugere **competências técnicas e soft skills**;  
 - gera o mesmo relatório completo, de forma automática.
 
 ---
@@ -73,8 +73,8 @@ O ORION então:
 
 - **Python 3.12**
 - **Streamlit** (interface web)
-- **Pandas / CSV / ZIP** para leitura dos dados do LinkedIn
-- **HTML + CSS embutido** para componentes visuais (barras de risco, layout, etc.)
+- **Pandas / CSV / ZIP** para leitura de dados estruturados
+- **HTML + CSS embutido** para componentes visuais (barra de risco, layout etc.)
 
 ---
 
@@ -97,3 +97,33 @@ pip install -r requirements.txt
 
 # 4. Iniciar a aplicação
 streamlit run app.py
+```
+
+O Streamlit vai abrir um link local (geralmente http://localhost:8501).
+É só colar no navegador
+
+🧩 Ideias de evolução
+
+Usar modelos de linguagem mais avançados para análise de texto;
+
+Conectar com APIs reais de vagas / mercado de trabalho;
+
+Criar modo para empresas avaliarem times inteiros;
+
+Exportar relatório em PDF com layout visual;
+
+Criar ranking de carreiras baseado em aderência do perfil.
+
+👨‍💻 Autores
+
+Fernando Almeida (@nandoalmeidam) – desenvolvimento, lógica de negócio e interface
+
+Gabriel Tarone (@Tarone14) – coautor no projeto acadêmico, conceitos e testes
+
+⭐ Como apoiar
+
+Se o ORION te ajudou ou te inspirou:
+
+Deixe uma estrela (⭐) neste repositório
+
+Compartilhe com alguém que esteja pensando em transição de carreira

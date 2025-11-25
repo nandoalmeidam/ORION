@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="ORION.png" alt="Logo do ORION" width="800"/>
+<img src="ORION.png" alt="Logo do ORION" width="260"/>
 
 # 🌌 ORION – Assistente Inteligente de Carreira  
 
